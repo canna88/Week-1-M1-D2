@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.main-div{
+    width: 1300px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(234,237,237);
+}
+
+.amazon-image {
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    background-color: rgb(34, 47, 62);
+    height:auto;
+    width:auto;
+}
+
+.bar{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: rgb(53, 71, 88);
+    height: auto;
+    width: auto;
+}
+
+.amazon-image.bottom {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+}
+
+.bar.bottom{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.menu-options{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15;
+    color: white;
+    padding-right: 20px;
+}
+
+.menu-options.bottom{
+    text-decoration: underline;
+}
+
+.main-div.box{
+    width: auto;
+    margin: 20;
+}
+
+
+.orange-box-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.box-pictures {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-pictures-item {
+    width: 25%;
+    margin: 20px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 7px rgb(146, 146, 146);
+}
+.box-pictures-item-2 {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.box-pictures-2 {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    }
+
+.box-pictures-2.big {
+    height: auto;
+    }
+    
+
+.box-pictures-2 img:nth-child(2) {
+    clip-path: inset(0% 0% 50% 0%);
+    overflow: hidden;
+}
+
+.image-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%, -50%);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.image-text.second {
+    top: 130%;
+    font-size: 18px;
+
+}
+
+
+.sentence {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+.sentence.center {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+
+.sentence.underlined{
+    text-decoration: underline;
+    color: rgb(1, 113, 133);
+    font-size: smaller;
+}
